@@ -1,3 +1,7 @@
+body {
+    padding: env(safe-area-inset); // <- this is the missing piece. Add it.
+}
+
 h1 {
     font-family: 'Fjalla One', sans-serif;
     color: white;
