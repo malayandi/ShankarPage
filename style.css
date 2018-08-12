@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3em;   
+}
+
+#about {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;   
+    padding-left: 0;
+    list-style: none;
+}
