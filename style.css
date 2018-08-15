@@ -9,6 +9,10 @@ h1 {
     font-size: 3em;   
 }
 
+#about_window {
+    overflow: scroll;
+}
+
 #about {
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -16,4 +20,44 @@ h1 {
     font-size: 1.5em;   
     padding-left: 0;
     list-style: none;
+}
+
+#content {
+    text-align: left;
+}
+
+#title {
+    font-size: 1.25em;
+}
+
+#content a:link {
+    border-bottom: 1px solid #fff;
+}
+
+#content a:visited {
+    border-bottom: 1px solid #fff;
+}
+
+#content a:hover {
+    color: lightgrey;
+    border-bottom: 1px dotted #fff;
+    text-decoration: none;
+}
+
+ #content a:active {
+    color: black;
+    border-bottom: 1px solid #fff;
+}
+
+
+.carousel-content {
+    color:white;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
 }
