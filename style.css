@@ -9,8 +9,12 @@ h1 {
     font-size: 3em;   
 }
 
+/*scroll-behavior: smooth;*/
+
 #about_window {
     overflow: scroll;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
 }
 
 #about {
@@ -23,7 +27,8 @@ h1 {
 }
 
 #content {
-    text-align: left;
+    text-align: justify;
+    
 }
 
 #title {
